@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className="flextext-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
+      <div className="flex text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
         <Button>Sign In</Button>
       </div>
     </nav>
