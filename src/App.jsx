@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import {
@@ -12,9 +12,9 @@ import {
 export default function App() {
   return (
     <>
-      <nav>
+      <header className="padding-x py-8 absolute z-10 w-full">
         <Navbar />
-      </nav>
+      </header>
       <main>
         <Hero />
         <Products />
